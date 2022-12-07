@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Starter template for building vue component libraries with VUE 3 and Typescript, running on vite.",
   "author": "Geirr Winnem <gwinnem@gmail.com>",
-  "license": "MIT",
+  "license": "ISC",
   "keywords": [
     "typescript",
     "es6"
