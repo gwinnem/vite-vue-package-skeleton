@@ -1,12 +1,12 @@
 <template>
   <main>
     <h1>Welcome to your your sandbox environment</h1>
-    <VueComponentNpmExample />
+    <TestComponent />
   </main>
 </template>
 
 <script lang="ts" setup>
-  import VueComponentNpmExample from '../src/lib-compponents/Test.vue';
+  import TestComponent from '../src/lib-compponents/Test.vue';
 
 </script>
 

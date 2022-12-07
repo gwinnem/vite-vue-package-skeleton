@@ -1,1 +1,3 @@
-export default './lib-components/Test.vue';
+import Test from './lib-compponents/Test.vue';
+
+export { Test };

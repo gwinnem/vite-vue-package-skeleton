@@ -2,14 +2,20 @@
   "name": "vite-vue-package-skeleton",
   "version": "0.0.1",
   "description": "Starter template for building vue component libraries with VUE 3 and Typescript, running on vite.",
-  "author": "",
+  "author": "Geirr Winnem <gwinnem@gmail.com>",
   "license": "MIT",
-  "files": [
-    "dist"
+  "keywords": [
+    "typescript",
+    "es6"
   ],
   "main": "dist/vite-vue-package-skeleton.umd.js",
   "module": "dist/vite-vue-package-skeleton.es.js",
   "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ],
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": "./dist/vite-vue-package-skeleton.es.js",
@@ -17,20 +23,37 @@
     }
   },
   "scripts": {
-    "dev": "vite --open",
+    "dev": "vite --open --force --host",
     "build": "vite build && npm run build:types",
     "build:types": "vue-tsc --project tsconfig.build-types.json --declaration --emitDeclarationOnly --outDir dist/types ",
-    "typecheck": "vue-tsc --project tsconfig.build-types.json --noEmit"
+    "typecheck": "vue-tsc --project tsconfig.build-types.json --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
   },
   "devDependencies": {
     "@babel/types": "^7.20.5",
     "@types/node": "^18.11.11",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vue/tsconfig": "^0.1.3",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import-quotes": "^0.0.1",
+    "eslint-plugin-vue": "^9.8.0",
     "sass": "^1.56.1",
     "typescript": "^4.9.3",
     "vite": "^3.2.5",
     "vue": "^3.2.45",
     "vue-tsc": "^1.0.11"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }
