@@ -1,6 +1,6 @@
 {
   "name": "vite-vue-package-skeleton",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Starter template for building vue component libraries with VUE 3 and Typescript, running on vite.",
   "author": "Geirr Winnem <gwinnem@gmail.com>",
   "license": "ISC",
@@ -11,6 +11,7 @@
     "vite",
     "vue",
     "vue component library",
+    "extended eslint rules",
     "style linting"
   ],
   "main": "dist/vite-vue-package-skeleton.umd.js",

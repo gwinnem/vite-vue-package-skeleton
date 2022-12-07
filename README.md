@@ -35,11 +35,19 @@ npm run dev
 ```
 npm run build
 ```
+
 <br/>
 
 #### Generate TypeScript declaration files for our .vue files (this is using vue-tsc).
 ```
 npm run build:types
+```
+
+<br/>
+
+#### Running type checking on .ts files (this is using vue-tsc).
+```
+npm run typeCheck
 ```
 
 <br/>
