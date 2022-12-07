@@ -7,9 +7,9 @@ Starter template for building vue component libraries with VUE 3 and Typescript,
 ```
 npm install vite-vue-package-skeleton
 ```
-## Steps to setup your custom npm package
+## Steps to set up your custom npm package
 1. Configure your package.json file with correct name, description, author, and change 'vite-vue-package-skeleton' with the desired package name.
-2. Configure build/rollup.config with the name and package file name that you did setup in package.json.
+2. Configure build/rollup.config with the name and package file name that you did set up in package.json.
 3. Search for the // TODO comment and make the required changes.
 4. Clean up the unused example implementation, abd Start building your own components (similar to ExampleComponent).
 
