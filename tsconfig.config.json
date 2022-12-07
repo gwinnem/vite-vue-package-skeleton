@@ -3,7 +3,11 @@
   "include": ["vite.config.*", "vitest.config.*", "cypress.config.*"],
   "compilerOptions": {
     "composite": true,
-    "types": ["vite/client"]
+    "types": [
+      "node",
+      "vue",
+      "vite/client"
+    ],
     "isolatedModules": true,
     "skipLibCheck": true
   }
