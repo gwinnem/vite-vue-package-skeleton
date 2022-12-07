@@ -6,7 +6,12 @@
   "license": "ISC",
   "keywords": [
     "typescript",
-    "es6"
+    "es6",
+    "npm package",
+    "vite",
+    "vue",
+    "vue component library",
+    "style linting"
   ],
   "main": "dist/vite-vue-package-skeleton.umd.js",
   "module": "dist/vite-vue-package-skeleton.es.js",
