@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-  import TestComponent from '../src/lib-compponents/Test.vue';
+  import TestComponent from '../src/lib/Test.vue';
 
 </script>
 

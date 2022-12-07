@@ -1,3 +1,3 @@
-import type Test from './lib-compponents/Test.vue';
+import type Test from './lib/Test.vue';
 
 export type { Test };
