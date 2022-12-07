@@ -27,7 +27,8 @@
     "build": "vite build && npm run build:types",
     "build:types": "vue-tsc --project tsconfig.build-types.json --declaration --emitDeclarationOnly --outDir dist/types ",
     "typecheck": "vue-tsc --project tsconfig.build-types.json --noEmit",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "lint:style": "npx stylelint src/**/*.{scss,vue} --no-fix",
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
@@ -45,6 +46,11 @@
     "eslint-plugin-import-quotes": "^0.0.1",
     "eslint-plugin-vue": "^9.8.0",
     "sass": "^1.56.1",
+    "stylelint": "^14.8.5",
+    "stylelint-config-recommended-scss": "^6.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
     "typescript": "^4.9.3",
     "vite": "^3.2.5",
     "vue": "^3.2.45",
