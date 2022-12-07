@@ -21,43 +21,60 @@ You can run the library in a standalone mode for development purposes, following
 ```
 npm install
 ```
+
+<br/>
+
 #### Compiles and hot-reloads for development
 ```
 npm run dev
 ```
 
-#### Compiles and minifies for production
+<br/>
+
+#### Uses Vite to build our component library (compiles .vue files to .js) and call build:types script.
 ```
 npm run build
 ```
-#### Building the library types
+<br/>
+
+#### Generate TypeScript declaration files for our .vue files (this is using vue-tsc).
 ```
 npm run build:types
 ```
+
+<br/>
+
 #### Running Eslint
 ```
 npm run lint
 ```
+
+<br/>
+
 #### Running Eslint with --fix option
 ```
 npm run lint:fix
 ```
 
+<br/>
+
+#### Running Style linting
+```
+npm run lint:style
+```
+
+<br/>
+
 #### Auditing the package
 ```
  npm audit --registry=https://registry.npmjs.org/
 ```
+
+<br/>
+
+### Testing the npm package before publishing
+[Howto](./docs/testing-package.md)
+
+
 ### Publishing the library
-In order to publish the package, you need to follow these steps
-#### Bumping the package version
-```
-npm version patch -m "message"
-```
-#### Logging in to npm
-```
- npm login
-```
-#### Publishing the package to npm
-```
- npm publish
-```
+[Howto](./docs/build.md)
