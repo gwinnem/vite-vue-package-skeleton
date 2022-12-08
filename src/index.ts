@@ -1,3 +1,2 @@
-import type Test from './lib/Test.vue';
-
-export type { Test };
+export { default as Button } from './lib/ButtonComponent.vue';
+export {default as Input } from './lib/InputComponent.vue';
