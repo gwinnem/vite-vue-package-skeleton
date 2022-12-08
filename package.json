@@ -7,9 +7,9 @@
   "keywords": [
     "typescript",
     "es6",
-    "npm package",
+    "plugin",
     "vite",
-    "vue",
+    "vue 3",
     "vue component library",
     "extended eslint rules",
     "style linting"
