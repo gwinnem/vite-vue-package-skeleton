@@ -28,6 +28,13 @@
       "require": "./dist/vite-vue-package-skeleton.umd.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwinnem/vite-vue-package-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gwinnem/vite-vue-package-skeleton/issues"
+  },
   "scripts": {
     "dev": "vite --open --force --host",
     "build": "vite build && npm run build:types",
