@@ -37,8 +37,6 @@
     "lint:style": "npx stylelint src/**/*.{scss,vue} --no-fix",
     "lint:fix": "eslint --fix ."
   },
-  "dependencies": {
-  },
   "devDependencies": {
     "@babel/types": "^7.20.5",
     "@types/node": "^18.11.11",
